@@ -5,13 +5,16 @@ The code, first, based on https://github.com/ignasiusharvey/text_clustering/tree
 * Do additional ensamble classifiers increase performance compared to a single classifier?
 * Does PCA feature reduction improve the performance of classifiers?
 * How does FastText do comparing to other vectorization models?
+
 The compared calssifiers were:
 * Random Forest
 * K-Neighbors
 * Multi-layer Perceptron
+
 The compared ensemlbe classifiers were:
 * bagging (different amounts of estimators)
 * voting (hard and soft)
+
 The compared vectorization models were:
 * FastText
 * Word2Vec
